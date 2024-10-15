@@ -3,8 +3,21 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
 .img {
   border-radius: 8px;
   max-width: 200px;
   max-height: 296px;
+}
+
+@media screen and (max-width:1200px) {
+  .img {
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width:970px) {
+  .img {
+    max-width: 100px;
+  }
 }

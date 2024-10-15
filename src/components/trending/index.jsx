@@ -8,10 +8,10 @@ const Trending = ({ setId }) => {
 
   return (
     <div className={styles.container}>
-      {trendingNow.map((movie) => {
+      {trendingNow.map(({ Id, CoverImage }) => {
         return (
-          <Fragment key={movie.Id}>
-            <Card movie={movie} setId={setId} />
+          <Fragment key={Id}>
+            <Card Id={Id} CoverImage={CoverImage} setId={setId} />
           </Fragment>
         );
       })}

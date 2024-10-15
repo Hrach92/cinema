@@ -16,11 +16,10 @@ function App() {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const data = sessionStorage.getItem("item");
-      const { Id } = JSON.parse(data);
-      setId(Id);
+      const sessionId = sessionStorage.getItem("id") || id
+      setId(sessionId)
     }
-  }, []);
+  }, [id]);
 
   return (
     <Layout>

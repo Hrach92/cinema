@@ -1,18 +1,17 @@
 import { useCallback } from "react";
 import styles from "./styles.module.css";
 
-const Card = ({ setId, movie }) => {
+const Card = ({ setId, Id, CoverImage }) => {
   const setItem = useCallback(
     (id) => {
       if (typeof window !== "undefined") {
-        sessionStorage.setItem("item", JSON.stringify(movie));
+        sessionStorage.setItem("id", Id);
       }
       setId(id);
     },
-    [movie, setId]
+    [setId, Id]
   );
 
-  const { Id, CoverImage } = movie;
 
   return (
     <div key={Id} className={styles.movie} onClick={() => setItem(Id)}>
