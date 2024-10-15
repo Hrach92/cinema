@@ -1,7 +1,73 @@
-.container{
-
+.container {
+  height: 65vh;
+  max-width: 100%;
+  position: relative;
 }
-.img{
-    max-height: 70vh;
-    max-width: 100%;
+.movie {
+  max-width: fit-content;
+  position: relative;
+  z-index: 2;
+  padding: 120px 110px;
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 450px;
+}
+.img {
+  position: absolute;
+  max-height: 70vh;
+  max-width: 100%;
+}
+.category {
+  color: grey;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.title {
+  color: #f9f9f9;
+  font-size: 56px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.btn {
+  width: 150px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  cursor: pointer;
+  border: 0;
+  font-size: 20px;
+}
+.playImg {
+  max-width: 12px;
+  max-height: 12px;
+}
+.play {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.more {
+  color: white;
+  background-color: blue;
 }

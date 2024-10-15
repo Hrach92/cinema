@@ -1,3 +1,14 @@
-.container{
-
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: calc(100% - 100px);
+  margin-left: 100px;
+  overflow-x: auto;
+  gap: 15px;
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+}
+.container::-webkit-scrollbar {
+  width: 0px;
 }
