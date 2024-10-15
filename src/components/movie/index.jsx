@@ -1,19 +1,38 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import mainImage from "../../assets/images/mainImage.png";
-import { formatTime } from "../../instance/data";
+import { formatText, formatTime } from "../../instance/data";
 import styles from "./styles.module.css";
 import classNames from "classnames";
 import play from "../../assets/icons/play.png";
+import pause from "../../assets/icons/pause.png";
+
+import video from "../../assets/videos/video.mp4";
 
 const Movie = ({ movie }) => {
-  const [more, setMore] = useState(false);
+  const [show, setShow] = useState(false);
+  const [playVideo, setPlayVideo] = useState(false);
 
-  const { ReleaseYear, MpaRating, Title, Category, Duration } = movie;
+  const { ReleaseYear, MpaRating, Title, Category, Duration, Description } =
+    movie;
+
+  const onPlay = useCallback(() => {
+    setTimeout(() => {
+      setPlayVideo((prev) => !prev);
+    }, 2000);
+  }, []);
+
   const time = formatTime(Duration);
+  const desc = formatText(Description, show);
+  const src = playVideo ? pause : play;
 
   return (
     <div className={styles.container}>
-      <img src={mainImage} alt="Main" className={styles.img} />
+      {playVideo ? (
+        <video autoPlay loop muted style={styles.video} src={video} />
+      ) : (
+        <img src={mainImage} alt="Main" className={styles.img} />
+      )}
+
       <div className={styles.movie}>
         <div className={styles.category}>{Category}</div>
         <div className={styles.title}>{Title}</div>
@@ -22,24 +41,20 @@ const Movie = ({ movie }) => {
           <div>{MpaRating}</div>
           <div>{time}</div>
         </div>
-        <div className={styles.desc}>
-          {`Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, ${
-            more ?
-            "when an unknown printer took a galley of type and scrambled it to make a type specimen book.":"..."
-          }`}
-        </div>
+        <div className={styles.desc}>{desc}</div>
         <div className={styles.actions}>
-          <button className={classNames(styles.btn, styles.play)}>
-            <img src={play} alt="play" className={styles.playImg} />
+          <button
+            className={classNames(styles.btn, styles.play)}
+            onClick={onPlay}
+          >
+            <img src={src} alt="play" className={styles.playImg} />
             Play
           </button>
           <button
-            className={classNames(styles.btn, styles.more)}
-            onClick={() => setMore((prev) => !prev)}
+            className={classNames(styles.btn, styles.show)}
+            onClick={() => setShow((prev) => !prev)}
           >
-            {more ? "Less Info" : "More Info"}
+            {show ? "Less Info" : "More Info"}
           </button>
         </div>
       </div>

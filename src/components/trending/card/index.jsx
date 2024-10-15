@@ -12,11 +12,11 @@ const Card = ({ setId, Id, CoverImage }) => {
     [setId, Id]
   );
 
-
   return (
     <div key={Id} className={styles.movie} onClick={() => setItem(Id)}>
       <img src={CoverImage} className={styles.img} alt="movie" />
     </div>
   );
 };
+
 export default Card;

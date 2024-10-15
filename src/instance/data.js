@@ -18,7 +18,8 @@ export const movies = {
     MpaRating: "18+",
     Category: "Movie",
     Duration: "6000",
-    Description: "Info About it",
+    Description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   trendingNow: [
     {
@@ -33,7 +34,8 @@ export const movies = {
       Duration: "2000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "2",
@@ -47,7 +49,8 @@ export const movies = {
       Duration: "2300",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "3",
@@ -61,7 +64,8 @@ export const movies = {
       Duration: "6000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "4",
@@ -75,7 +79,8 @@ export const movies = {
       Duration: "4000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "5",
@@ -89,7 +94,8 @@ export const movies = {
       Duration: "5300",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "6",
@@ -103,7 +109,8 @@ export const movies = {
       Duration: "1200",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "7",
@@ -117,7 +124,8 @@ export const movies = {
       Duration: "4500",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "8",
@@ -131,7 +139,8 @@ export const movies = {
       Duration: "2000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "9",
@@ -145,7 +154,8 @@ export const movies = {
       Duration: "2300",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "10",
@@ -159,7 +169,8 @@ export const movies = {
       Duration: "6000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "11",
@@ -173,7 +184,8 @@ export const movies = {
       Duration: "1200",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "12",
@@ -187,7 +199,8 @@ export const movies = {
       Duration: "3400",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "13",
@@ -201,7 +214,8 @@ export const movies = {
       Duration: "6500",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "14",
@@ -215,7 +229,8 @@ export const movies = {
       Duration: "5000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "15",
@@ -229,7 +244,8 @@ export const movies = {
       Duration: "1300",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "16",
@@ -243,7 +259,8 @@ export const movies = {
       Duration: "5000",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "17",
@@ -257,7 +274,8 @@ export const movies = {
       Duration: "400",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "18",
@@ -271,7 +289,8 @@ export const movies = {
       Duration: "1200",
       VideoUrl:
         "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       Id: "19",
@@ -283,10 +302,12 @@ export const movies = {
       MpaRating: "18+",
       Category: "Movie",
       Duration: "6000",
-      Description: "Info About it",
+      Description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
   ],
 };
+
 export function formatTime(seconds) {
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.floor((seconds % 3600) / 60);
@@ -299,3 +320,7 @@ export function formatTime(seconds) {
 
   return result.trim();
 }
+
+export const formatText = (text, show) => {
+  return show ? text : `${text.slice(0, 151)}...`;
+};

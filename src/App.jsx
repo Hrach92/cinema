@@ -16,8 +16,8 @@ function App() {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const sessionId = sessionStorage.getItem("id") || id
-      setId(sessionId)
+      const sessionId = sessionStorage.getItem("id") || id;
+      setId(sessionId);
     }
   }, [id]);
 

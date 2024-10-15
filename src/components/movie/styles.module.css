@@ -1,7 +1,6 @@
 .container {
   height: 65vh;
   max-width: 100%;
-  position: relative;
 }
 .movie {
   max-width: fit-content;
@@ -18,6 +17,14 @@
   position: absolute;
   max-height: 70vh;
   max-width: 100%;
+}
+video {
+  margin: 100px 200px;
+  position: absolute;
+  max-height: 70vh;
+  max-width: 100%;
+  z-index: 0;
+  border-radius: 10px;
 }
 .category {
   color: grey;
@@ -67,7 +74,7 @@
   flex-direction: row;
   gap: 5px;
 }
-.more {
+.show {
   color: white;
   background-color: blue;
 }

@@ -10,13 +10,19 @@
   max-height: 296px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1500px) {
+  .img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   .img {
     max-width: 120px;
   }
 }
 
-@media screen and (max-width:970px) {
+@media screen and (max-width: 970px) {
   .img {
     max-width: 100px;
   }
