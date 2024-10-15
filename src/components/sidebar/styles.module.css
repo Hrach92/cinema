@@ -1,0 +1,84 @@
+.sidebar {
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 29px 0;
+    gap: 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+    width: 100px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    transition: width 0.3s ease, background 0.3s ease;
+    overflow: hidden;
+}
+
+.sidebar:hover {
+    padding: 120px 29px 0;
+    width: 300px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background 0.3s ease;
+    opacity: 1;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 48px;
+    max-width: 142px;
+    box-sizing: border-box;
+}
+.activeItem{
+    background-color: #232A3F;
+    border-radius: 24px;
+    transition: border-radius 0.1s ease;
+}
+.sidebar:hover .activeItem{
+    border-radius: 8px;
+}
+.label {
+    color: #F9F9F9;
+    display: none;
+    height: 24px;
+    opacity: 0;
+    margin-left: 10px;
+    transition: opacity 0.3s ease 0.1s, visibility 0s 0.3s;
+    width: 100%;
+    word-break: unset;
+}
+
+.sidebar:hover .label {
+    transition-delay: 0.3s;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease, visibility 0s;
+    white-space: nowrap
+}
+
+.sidebar:hover .item:hover {
+    background-color: #232A3F;
+    border-radius: 8px;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+}
+
+.imgContainer:hover {
+    border-radius: 50%;
+    background-color: #232A3F;
+}
+
+.img {
+    max-width: 16px;
+    max-height: 16px;
+}
